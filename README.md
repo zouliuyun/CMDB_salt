@@ -4,6 +4,7 @@
 管理软件版本是基于saltstack的接口调用来实现，后期会更新，推送和执行的后台日志记录，和任务编排等系统，版本去掉了监控部分，后期应该会结合zabbix自定义时间出图表：
 安装步骤（基本环境，需要安装好（Django、south、MySQLdb模块）安装过程报错就继续安装模块即可）：
 ```sh
+可以参照http://sofar.blog.51cto.com/353572/1596960/ 装环境
 pip install 'django==1.6.5'
 pip install south
 pip install MySQL-python

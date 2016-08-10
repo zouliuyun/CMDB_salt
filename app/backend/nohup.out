@@ -1,0 +1,6 @@
+10.96.36.40
+event None
+Traceback (most recent call last):
+  File "salt_event_to_mysql.py", line 42, in <module>
+    ret['success'], json.dumps(ret)))
+KeyError: 'success'
